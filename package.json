@@ -10,5 +10,4 @@
     "build": "sass scss:css",
     "watch": "sass --watch scss:css & live-server"
   }
-
 }
