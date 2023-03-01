@@ -7932,6 +7932,10 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+.navbar-brand {
+  color: yellow;
+}
+
 body {
   color: aqua;
 }/*# sourceMappingURL=style.css.map */
