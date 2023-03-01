@@ -7932,10 +7932,16 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-.navbar-brand {
-  color: yellow;
+.navbar-light .navbar-brand {
+  color: #f80e68;
 }
 
-body {
-  color: aqua;
+.btn-outline-success {
+  color: #fff;
+  border-color: #f80e68;
+  background-color: #f80e68;
+}
+
+.display-4 {
+  color: #f80e68;
 }/*# sourceMappingURL=style.css.map */
