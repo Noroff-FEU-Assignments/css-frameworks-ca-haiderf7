@@ -7944,4 +7944,51 @@ a.text-dark:hover, a.text-dark:focus {
 
 .display-4 {
   color: #f80e68;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.row {
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #767676;
+  border-color: #767676;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "lato";
+  color: #f80e68;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: white;
+  padding: 0.5em;
+}
+
+.footer-p {
+  color: black;
 }/*# sourceMappingURL=style.css.map */

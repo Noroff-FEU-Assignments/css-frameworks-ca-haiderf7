@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+}
+
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: #ffff
+    ;
+    margin-top: 2rem;
+    font-size: 0.8em;
+    color: #ffff;
+    padding: 0.5em;
+}
+
+
+.footer-p{
+    color: black;
+}
