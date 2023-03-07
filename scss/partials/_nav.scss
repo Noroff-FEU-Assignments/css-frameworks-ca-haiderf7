@@ -1,6 +1,8 @@
 .navbar-light .navbar-brand{
-    color: $primary;
+    color: $primary !important;
 }
+
+
 
 
 .btn-outline-success{
@@ -10,3 +12,7 @@
 }
 
 
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
+}

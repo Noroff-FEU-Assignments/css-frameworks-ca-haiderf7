@@ -1,14 +1,17 @@
 html,
 body {
     height: 100%;
+    margin: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
     background-color: #EFEFEF;
-    flex: 1;
     min-height: 100vh;
+}
+main{
+    flex: 1;
 }
 
 
@@ -20,8 +23,7 @@ footer {
     font-size: 0.8em;
     color: #ffff;
     padding: 0.5em;
-    position: sticky;
-    bottom: 0;
+   
 }
 
 

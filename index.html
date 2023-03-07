@@ -15,7 +15,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">The YAY Company</a>
+      <a class="navbar-brand" href="index.html" id="yay-company">The YAY Company</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -30,10 +30,8 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="news.html">News</a>
@@ -53,6 +51,7 @@
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
             GO
           </button>
+          <main>
         </form>
       </div>
     </nav>
@@ -125,44 +124,22 @@
         </p>
       </div>
     </div>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">First</a>
-        <img
-          src="images/tab/tab-1.jpg"
-          alt="Image Description"
-          width="150"
-          height="150"
-        />
-        <span class="ml-2">Active Text</span>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Second</a>
-        <img
-          src="images/tab/tab-2.jpg"
-          alt="Image Description"
-          width="150"
-          height="150"
-        />
-        <span class="ml-2">Active Text</span>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Third</a>
-        <img
-          src="images/tab/tab-3.jpg"
-          alt="Image Description"
-          width="150"
-          height="150"
-        />
-        <span class="ml-2">Active Text</span>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
       </li>
     </ul>
-    <footer>
-      <div>
-        <i class="fa-brands fa-youtube"></i> <i class="fa fa-vimeo"></i>
-      </div>
-      <p class="footer-p">hello@yay.com</p>
-      <p class="footer-p">Copyright 2020</p>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
