@@ -7959,6 +7959,11 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: #767676;
 }
 
+@media only screen and (max-width: 600px) {
+  .col-md-3 {
+    padding: 10px;
+  }
+}
 h1,
 h2,
 h3,
@@ -7976,17 +7981,20 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #EFEFEF;
+  flex: 1;
+  min-height: 100vh;
 }
 
 footer {
   display: flex;
-  flex-shrink: 0;
   justify-content: space-between;
   background-color: white;
   margin-top: 2rem;
   font-size: 0.8em;
   color: white;
   padding: 0.5em;
+  position: sticky;
+  bottom: 0;
 }
 
 .footer-p {

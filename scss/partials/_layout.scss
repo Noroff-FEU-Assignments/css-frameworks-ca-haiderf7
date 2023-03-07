@@ -7,19 +7,21 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #EFEFEF;
+    flex: 1;
+    min-height: 100vh;
 }
 
 
 footer {
     display: flex;
-    flex-shrink: 0;
     justify-content: space-between;
-    background-color: #ffff
-    ;
+    background-color: #ffff;
     margin-top: 2rem;
     font-size: 0.8em;
     color: #ffff;
     padding: 0.5em;
+    position: sticky;
+    bottom: 0;
 }
 
 
