@@ -7,10 +7,14 @@
 
 .btn-outline-success{
     color: #fff;
+    background-color: $primary !important;
     border-color: $primary;
-    background-color: $primary;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #ffff;
+    border-color: #ffff;
+}
 
 
 .navbar-light .navbar-nav .nav-link{

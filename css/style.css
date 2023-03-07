@@ -7938,8 +7938,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-outline-success {
   color: #fff;
+  background-color: #f80e68 !important;
   border-color: #f80e68;
-  background-color: #f80e68;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: white;
+  border-color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
