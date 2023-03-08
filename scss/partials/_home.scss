@@ -1,6 +1,14 @@
 .display-4{
     color: $primary;
+    font-size: 1.5rem;
 }
+
+
+
+.tab-content > .active{
+    display: flex;
+}  
+  
 
 
 

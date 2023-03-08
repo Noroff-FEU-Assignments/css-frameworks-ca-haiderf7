@@ -7953,6 +7953,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .display-4 {
   color: #f80e68;
+  font-size: 1.5rem;
+}
+
+.tab-content > .active {
+  display: flex;
 }
 
 .container {
