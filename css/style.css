@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.pagination button {
+  border: 1px solid red;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7978,6 +7982,20 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 10px;
   }
 }
+.contact-info {
+  display: grid;
+}
+
+.contact-details {
+  padding: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #767676 !important;
+}
+
 h1,
 h2,
 h3,
