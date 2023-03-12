@@ -7,13 +7,13 @@
 }
 
 .btn-primary:hover{
-    background-color: #767676;
-    border-color: #767676;
+    background-color: $dark;
+    border-color: $dark;
 }
 
 
 .btn-group > .btn:not(:first-child){
-    background-color: #fff;
+    background-color: $light;
     color: $primary;
     border-color: $primary;
 }
@@ -25,6 +25,10 @@
     }
   }
 
+  .news-h1{
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
 
 @media only screen and (max-width: 600px) {
     .col-md-3{

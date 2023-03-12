@@ -8,8 +8,21 @@
         padding: 10px;
     }
 
+
+      
+      .contact-h1{
+        font-size: 2rem;
+      }
+
    .submit-btn{
     width: 100%;
     margin-top: 10px;
-    background-color: #767676 !important;
+    background-color: $dark !important;
    }
+
+
+   @media only screen and (max-width: 600px) {
+    .wrapper-form{
+      margin-top: 30px;
+    }
+  }

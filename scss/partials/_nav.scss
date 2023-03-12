@@ -20,3 +20,20 @@
 .navbar-light .navbar-nav .nav-link{
     color: #000000;
 }
+
+
+@media only screen and (max-width: 553px) {
+    .form-inline .form-control{
+        width: 40%;
+    }
+  }
+
+
+
+
+
+  @media only screen and (max-width: 553px) {
+    .btn-outline-success{
+       margin-left: 5px;
+    }
+  }

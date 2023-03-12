@@ -34,7 +34,7 @@
 }
 
 .tab-pane{
-    background-color: #ffff;
+    background-color: $light;
 }
 
 
@@ -57,3 +57,34 @@
       height: 200px;
     }
   }
+
+  @media only screen and (max-width: 720px) {
+    .nav-tabs{
+     display: grid;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .tab-content > .active{
+     display: grid;
+    }
+  }
+
+
+  @media only screen and (max-width: 720px) {
+    .tab-pane span{
+        width: 292px;
+        margin-left: 22px;
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .tab-pane img{
+        width: 82%;
+    }
+  }
+
+
+
+
