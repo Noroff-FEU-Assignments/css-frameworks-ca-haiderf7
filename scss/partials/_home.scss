@@ -1,0 +1,90 @@
+.display-4{
+    color: $primary;
+    font-size: 1.5rem;
+}
+
+
+
+.tab-content > .active{
+    display: flex;
+}  
+  
+
+.carousel-indicators li.active {
+    background-color: $primary;
+  }
+  
+  .carousel-indicators li{
+    height: 20px;
+    opacity: 1;
+    width: 25px;
+  }
+
+
+.tab-pane span{
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.tab-pane img{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+.tab-pane{
+    background-color: $light;
+}
+
+
+  
+.nav-link.active,
+.nav-link:focus {
+  background-color: $primary;
+}
+
+.nav-link:not(.active) {
+  color: $primary;
+  background-color: transparent;
+}
+
+
+  
+
+@media (max-width: 770.98px) {
+    .carousel-item img {
+      height: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .nav-tabs{
+     display: grid;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .tab-content > .active{
+     display: grid;
+    }
+  }
+
+
+  @media only screen and (max-width: 720px) {
+    .tab-pane span{
+        width: 292px;
+        margin-left: 22px;
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .tab-pane img{
+        width: 82%;
+    }
+  }
+
+
+
+
