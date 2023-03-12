@@ -12,6 +12,19 @@
 }
 
 
+.btn-group > .btn:not(:first-child){
+    background-color: #fff;
+    color: $primary;
+    border-color: $primary;
+}
+
+.btn-toolbar {.btn-group:first-child {button:first-child {
+        background-color:$primary ;
+        border-color: $primary;
+      }
+    }
+  }
+
 
 @media only screen and (max-width: 600px) {
     .col-md-3{

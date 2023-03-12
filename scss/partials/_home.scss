@@ -10,5 +10,50 @@
 }  
   
 
+.carousel-indicators li.active {
+    background-color: $primary;
+  }
+  
+  .carousel-indicators li{
+    height: 20px;
+    opacity: 1;
+    width: 25px;
+  }
 
 
+.tab-pane span{
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.tab-pane img{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+.tab-pane{
+    background-color: #ffff;
+}
+
+
+  
+.nav-link.active,
+.nav-link:focus {
+  background-color: $primary;
+}
+
+.nav-link:not(.active) {
+  color: $primary;
+  background-color: transparent;
+}
+
+
+  
+
+@media (max-width: 770.98px) {
+    .carousel-item img {
+      height: 200px;
+    }
+  }
