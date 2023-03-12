@@ -8062,7 +8062,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .col-md-3 {
     padding: 10px;
   }
